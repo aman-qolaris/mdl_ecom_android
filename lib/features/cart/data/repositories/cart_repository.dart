@@ -31,7 +31,7 @@ class CartRepository {
 
   Future<CartModel> getCart() async {
     try {
-      final userId = await _storageService.getUserId();
+      final userId = _storageService.getUserId();
 
       if (userId == null || userId.isEmpty) {
         throw ServerException('User not authenticated');

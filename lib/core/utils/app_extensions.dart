@@ -9,7 +9,8 @@ extension StringExtension on String {
   String get capitalize {
     if (isEmpty) return this;
     // PROD BUG FIX: Only capitalize the very first letter, not the whole string
-    return '${this.toUpperCase()}${substring(1)}';
+    // Removed 'this' to pass SonarQube strict linting
+    return '${substring(0, 1).toUpperCase()}${substring(1)}';
   }
 
   String truncate(int maxLength) {

@@ -1,0 +1,6 @@
+projectKey=MDL-ECOM-ANDROID
+serverUrl=https://sonarqube.qolarisdata.com
+serverVersion=26.2.0.119303
+dashboardUrl=https://sonarqube.qolarisdata.com/dashboard?id=MDL-ECOM-ANDROID
+ceTaskId=9fa45734-8abd-4d93-aa52-7ea1b2fc562f
+ceTaskUrl=https://sonarqube.qolarisdata.com/api/ce/task?id=9fa45734-8abd-4d93-aa52-7ea1b2fc562f
